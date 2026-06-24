@@ -17,7 +17,7 @@ const emailRes = await fetch('https://api.resend.com/emails', {
   },
   body: JSON.stringify({
     from: 'onboarding@resend.dev',
-    to: 'azizzeneth3@gmail.com',
+    to: 'raheemelassadi1@gmail.com',
     subject: available ? '🛍️ Rhode Summer Kit is back in stock!' : '❌ Rhode Summer Kit — still out of stock',
     html: available ? `
       <div style="font-family: sans-serif; max-width: 400px; margin: 0 auto; padding: 2rem;">
