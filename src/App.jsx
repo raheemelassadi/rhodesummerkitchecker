@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 async function fetchStockStatus() {
-  const res = await fetch('/rhode/products/the-summer-kit')
+  const res = await fetch('https://rhode-proxy.raheemelassadi1.workers.dev/')
   if (!res.ok) throw new Error(`HTTP ${res.status}`)
   const html = await res.text()
 
