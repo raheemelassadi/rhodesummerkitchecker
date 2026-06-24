@@ -19,7 +19,7 @@ if (available) {
     },
     body: JSON.stringify({
       from: 'onboarding@resend.dev',
-      to: 'azizzeneth3@gmail.com',
+      to: 'raheemelassadi1@gmail.com',
       subject: '🛍️ Rhode Summer Kit is back in stock!',
       html: `
         <div style="font-family: sans-serif; max-width: 400px; margin: 0 auto; padding: 2rem;">
